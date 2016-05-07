@@ -1,0 +1,5 @@
+<% if flash[:sweetify].present? %>
+    <script>
+      swal(<%= flash[:sweetify].html_safe %>)
+    </script>
+<% end %>
