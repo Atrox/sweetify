@@ -20,7 +20,7 @@ Next add the following line to the bottom of your application's layout file:
 ```html
 ...
 
-<%= render 'sweetify/script' %>
+<%= render 'sweetify/alert' %>
 
 </body>
 </html>
@@ -51,7 +51,8 @@ end
 ```
 
 That would look like this after the redirect:
-![](http://i.imgur.com/3WMvk0y.png)
+
+![Example Alert](http://i.imgur.com/3WMvk0y.png)
 
 
 ## Options
