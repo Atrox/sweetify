@@ -1,4 +1,7 @@
 # Sweetify - SweetAlert for Rails
+
+[![Gem](https://img.shields.io/gem/v/sweetify.svg?style=flat-square)](https://rubygems.org/gems/sweetify)
+
 This gem allows you to use [SweetAlert](http://t4t5.github.io/sweetalert/) for your flash messages.
 _See the examples below, to see how it looks like_
 
@@ -79,7 +82,7 @@ sweetalert('Text', 'Title', persistent: 'Awesome!') # Same as above just with a 
 
 You also can use any other available option that [SweetAlert accepts](http://t4t5.github.io/sweetalert/):
 ```ruby
-alert_info('Here is a custom image', 'Sweet!', imageUrl: 'images/thumbs-up.jpg, timer: 5000)
+alert_info('Here is a custom image', 'Sweet!', imageUrl: 'images/thumbs-up.jpg', timer: 5000)
 ```
 
 
