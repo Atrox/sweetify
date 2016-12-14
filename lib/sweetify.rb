@@ -1,2 +1,2 @@
 require 'sweetify/engine'
-require 'sweetify/sweetify'
+require 'sweetify/sweetalert'

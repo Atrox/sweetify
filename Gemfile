@@ -13,11 +13,7 @@ gemspec
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
 
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
 group :test do
-  gem 'minitest'
-  gem 'rake'
-  gem 'rack-test'
   gem 'nokogiri'
+  gem 'rake'
 end
