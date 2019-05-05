@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.name        = 'sweetify'
   s.version     = Sweetify::VERSION
   s.authors     = ['Atrox']
-  s.email       = ['mail@atrox.me']
+  s.email       = ['hello@atrox.dev']
   s.homepage    = 'https://github.com/atrox/sweetify'
   s.summary     = 'SweetAlert integrated in Ruby on Rails'
   s.description = 'Sweetify allows you to easily use SweetAlert within your controllers'
