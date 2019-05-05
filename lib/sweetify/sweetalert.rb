@@ -33,6 +33,18 @@ module Sweetify
         opts.delete(:persistent)
       end
 
+      # sweetalert changes
+      if Sweetify.sweetalert_library == 'sweetalert'
+        opts[:icon] = opts.delete(:type)
+        opts[:closeOnClickOutside] = opts.delete(:allowOutsideClick)
+
+        if opts.delete(:showConfirmButton)
+          opts[:button] = opts[:confirmButtonText]
+        else
+          opts[:button] = false
+        end
+      end
+
       flash_config(opts)
     end
 

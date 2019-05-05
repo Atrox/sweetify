@@ -2,7 +2,7 @@
 
 [![Gem](https://img.shields.io/gem/v/sweetify.svg?style=flat-square)](https://rubygems.org/gems/sweetify)
 
-This gem allows you to use [SweetAlert](http://t4t5.github.io/sweetalert/) for your flash messages.
+This gem allows you to use [SweetAlert](http://t4t5.github.io/sweetalert/) or [SweetAlert2](https://github.com/limonte/sweetalert2) for your flash messages.
 _See the examples below, to see how to use it_
 
 ## Installation
@@ -17,6 +17,12 @@ gem 'sweetify'
 And then execute:
 ```bash
 $ bundle
+```
+
+Next up, create the file `sweetify.rb` in your initializers to specify the library you are using (SweetAlert or SweetAlert2):
+```ruby
+# possible options: 'sweetalert', 'sweetalert2' - default is 'sweetalert2'
+Sweetify.sweetalert_library = 'sweetalert2'
 ```
 
 Next add the following line to the bottom of your application's layout file:
